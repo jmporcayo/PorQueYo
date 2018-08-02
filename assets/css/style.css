@@ -76,3 +76,11 @@ footer.page-footer {
     text-align: center;
     font-size: 45px;
 }
+
+#myname {
+    font-family: 'Parisienne', cursive;
+}
+
+html {
+    background-image: url("https://chainimage.com/images/cool-pink-flower-backgrounds-wallpaper-wallpaper-hd-background.jpg");
+}
