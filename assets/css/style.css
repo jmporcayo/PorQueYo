@@ -81,6 +81,25 @@ footer.page-footer {
     font-family: 'Parisienne', cursive;
 }
 
+#biojibberish {
+    font-family: 'Allan', cursive;
+    font-size: 27px;
+}
+
 html {
     background-image: url("https://chainimage.com/images/cool-pink-flower-backgrounds-wallpaper-wallpaper-hd-background.jpg");
+}
+
+/* .image-blurred-edge {
+    width: 152px;
+    height: 252px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 8px white inset;
+} */
+
+.img-thumbnail {
+    width: 152px;
+    height: 252px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 8px 8px white inset; */
 }
