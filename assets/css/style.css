@@ -1,6 +1,5 @@
 /* Custom Stylesheet */
 
-
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -10,26 +9,17 @@
 
 nav ul a,
 nav .brand-logo {
-    color: #444;
-}
-
-p {
-    line-height: 2rem;
+    
+    color: rgb(238, 227, 227);
 }
 
 .sidenav-trigger {
     color: #26a69a;
 }
 
-.parallax-container {
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, .9);
-}
-
-.parallax-container .section {
-    width: 100%;
+nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 70px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -56,38 +46,23 @@ p {
     font-size: inherit;
 }
 
-footer.page-footer {
-    margin: 0;
-}
-
-#map {
-    height: 300px;
-}
-
-#checklist {
-    font-size: 16px;
-    line-height: 16px;
-    background-color: #009688;
-    color: #FFFFFF;
-    padding-right: 5px;
-}
-
-#checklist-header {
-    text-align: center;
-    font-size: 45px;
-}
-
 #myname {
     font-family: 'Parisienne', cursive;
+    margin: 0;
 }
 
 #biojibberish {
     font-family: 'Allan', cursive;
-    font-size: 27px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 900;
+    -webkit-mask-image: -webkit-linear-gradient(right, rgb(121, 116, 187) 40%, rgba(255, 255, 255, 0) 120%);
 }
 
 html {
     background-image: url("https://chainimage.com/images/cool-pink-flower-backgrounds-wallpaper-wallpaper-hd-background.jpg");
+    background-size: 1160px 733px;
+    color: white;
 }
 
 /* .image-blurred-edge {
@@ -98,8 +73,12 @@ html {
 } */
 
 .img-thumbnail {
-    width: 152px;
-    height: 252px;
+    width: 125px;
+    height: 170px;
     border-radius: 15px;
-    /* box-shadow: 0 0 8px 8px white inset; */
+    
+}
+
+img {
+    border-radius: 15px;
 }
